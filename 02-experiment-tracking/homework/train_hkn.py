@@ -15,12 +15,12 @@ def load_pickle(filename: str):
 
 
 def run(data_path):
-    mlflow.set_tracking_uri("sqlite:///mlflow.db")
+    mlflow.set_tracking_uri("sqlite:///homework2.db")
     mlflow.set_experiment("nyc-taxi-homework2")
+    mlflow.autolog()
 
     with mlflow.start_run():
-        mlflow.autolog()
-
+        
         X_train, y_train = load_pickle(os.path.join(data_path, "train.pkl"))
         X_valid, y_valid = load_pickle(os.path.join(data_path, "valid.pkl"))
 
