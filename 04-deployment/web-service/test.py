@@ -1,4 +1,5 @@
 import requests
+# import predict
 
 ride = {
     "PULocationID": 10,
@@ -9,3 +10,6 @@ ride = {
 url = 'http://localhost:9696/predict'
 response = requests.post(url, json=ride)
 print(response.json())
+
+# pred= predict.predict(ride)
+# print(pred)
