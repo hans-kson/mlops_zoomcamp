@@ -42,7 +42,15 @@
 
 ## 5.6 Homework
 
-COMING SOON
+No homework. But you can send us feedback using 
+[this form](https://forms.gle/fb7dJKjyb1oeNeAz9) 
+
+
+## Notes
+
+Did you take notes? Add them here:
+
+* Send a PR, add your notes above this line
 
 
 
